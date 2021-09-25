@@ -7,9 +7,7 @@ body, h1 {
 .text-center {
     text-align: center;
 }
-/* .wrapper {
-    
-} */
+
 .container {
     width: 1200px;
     margin: auto;
@@ -51,7 +49,7 @@ body, h1 {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.1);
 
     display: flex;
     justify-content: center;
@@ -60,4 +58,34 @@ body, h1 {
 #terbaru .video .overlay img {
     width: 120px;
     height: 100px;
+}
+#menu {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    float: left;
+    width: 960px;
+    color: cornsilk;
+    color-adjust: cornsilk;
+}
+#menu li{
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color-adjust:snow;
+}
+#menu li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: snow;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.sidebar {
+    width: 400px;
+    float: left
+}
+
+.video .overlay a {
+    color: white;
 }
