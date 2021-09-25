@@ -89,3 +89,6 @@ body, h1 {
 .video .overlay a {
     color: white;
 }
+.audio {
+    position: relative;
+}
